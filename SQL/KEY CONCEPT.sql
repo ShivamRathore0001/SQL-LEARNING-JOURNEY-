@@ -1,0 +1,27 @@
+CREATE DATABASE college;
+CREATE DATABASE IF NOT EXISTS college;
+DROP DATABASE IF EXISTS company;
+SHOW DATABASES;
+SHOW TABLES;
+USE college;
+
+CREATE TABLE information(
+Rollno INT PRIMARY KEY ,
+Name VARCHAR(50)
+);
+
+
+SELECT*FROM information;
+
+INSERT INTO information
+(Rollno,Name)
+VALUES
+(101,"SHIVAM"),
+(208,"VISHAL");
+
+SELECT*FROM information;
+
+TRUNCATE TABLE information;
+
+
+
